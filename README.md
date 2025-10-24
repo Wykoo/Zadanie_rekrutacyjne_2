@@ -98,8 +98,10 @@ Zadanie_rekrutacyjne_2/
     └── churn_trend.csv
     └── sample.csv
 ├── notebook
-    └── EDA_Dataset202508.ipynb        # Analiza danych w Pythonie (EDA)
-├── README.md                  # Opis projektu (ten plik)
+    └── EDA_Dataset202508.ipynb        
+├── source_data
+    └── Dataset202508.ipynb
+├── README.md                  
 └── .DS_Store
 ```
 
