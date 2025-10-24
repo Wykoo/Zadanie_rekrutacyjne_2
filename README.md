@@ -1,15 +1,18 @@
 # Analiza Churnu i Kampanii
 
-Projekt analizy rezygnacji klientów (churn) w kontekście kampanii marketingowych, wykonany w **Pythonie (EDA)** oraz **Power BI (wizualizacja wyników)**.
+Projekt eksploracyjnej analizy danych przygotowany na podstawie rzeczywistego zestawu kampanii marketingowych i danych o klientach.  
+Analiza została wykonana w **Pythonie (EDA)** oraz **Power BI (dashboard wizualny)**.
 
 ---
 
 ## Cel projektu
 
-Celem projektu było:
-- zidentyfikowanie trendów odejść klientów (churn),
-- analiza wpływu typu kampanii oraz kategorii klientów na poziom churnu,
-- wizualizacja kluczowych wskaźników w postaci przejrzystego dashboardu w Power BI.
+Na bazie załączonych danych i ich opisu należało przygotować **eksploracyjną analizę danych**,  
+której celem było:
+
+- znalezienie **zależności i wzorców** w danych dotyczących kampanii i klientów,  
+- przedstawienie **wniosków i rekomendacji** dla przyszłych akcji sprzedażowych,  
+- zaprezentowanie wyników w formie **czytelnego dashboardu** w Power BI.
 
 ---
 
@@ -33,7 +36,7 @@ Plik źródłowy zawierał m.in. następujące kolumny:
 
 ## Eksploracja i przetwarzanie danych (Python)
 
-Analiza eksploracyjna została wykonana w notatniku **`Zadanie_rekrutacyjne2.ipynb`**, obejmując:
+Analiza eksploracyjna została wykonana w notatniku **`EDA_Dataset202508.ipynb`**, obejmując:
 - wstępne czyszczenie i opis danych,
 - wyliczenie wskaźników churnu oraz agregacji wg lat i kampanii,
 - analiza korelacji (`CZY_RETENCJA` ↔ `CZY_CHURN`, korelacja ≈ 0.59),
@@ -49,12 +52,27 @@ Interaktywny raport dostępny online:
 **[Zobacz dashboard Power BI](https://app.powerbi.com/view?r=eyJrIjoiNGM4YmFhNWYtMDRkZC00NzRjLWFjZGItOTliOTdjYThmYThiIiwidCI6ImEyMDEyMWI0LWMxYzctNDkwOS05NzQ4LTk0NjU0NDVkNDI1MSJ9)**  
 
 ### Główne elementy raportu:
-1. **Karty metryk** – ostatni churn, średni churn, liczba klientów, średni decyl.  
-2. **Wskaźnik churnu wg decyla** – analiza ryzyka rezygnacji w różnych grupach klientów.  
-3. **Churn rate wg typu kampanii** – porównanie skuteczności kampanii (`scored`, `campaign`, `campaign out`).  
-4. **Udział churnu wg kategorii klienta (OK/NIE)** – analiza struktury rezygnacji.  
-5. **Trend churnu w czasie (2005–2020)** – wizualizacja dynamiki odejść klientów.  
-6. **Liczba zdarzeń wg typu kampanii (N)** – wolumen działań marketingowych.  
+1. **Karty metryk głównych**  
+   - Ostatni churn (mies.)  
+   - Średni churn  
+   - Łączna liczba klientów  
+   - Średni decyl (poziom ryzyka)
+
+2. **Wskaźnik churnu wg decyla**  
+   - Analiza poziomu ryzyka rezygnacji w różnych grupach klientów.
+
+3. **Churn rate wg typu kampanii**  
+   - Porównanie skuteczności kampanii marketingowych (`scored`, `campaign`, `campaign out`).
+
+4. **Udział churnu wg kategorii klienta (KAT)**  
+   - Struktura klientów aktywnych (`OK`) vs. nieaktywnych (`NIE`).
+
+5. **Trend churnu w czasie (2005–2020)**  
+   - Analiza zmian wskaźnika churnu w ujęciu rocznym.  
+   - Wykres trendu z zaznaczeniem spadków i wzrostów.
+
+6. **Liczba zdarzeń wg typu kampanii (N)**  
+   - Pokazuje intensywność działań sprzedażowych i marketingowych w czasie.
 
 Dashboard został zaprojektowany z myślą o czytelności i spójności kolorystycznej.  
 Użyto motywu **ciemnoszarego z niebieskimi akcentami**.
