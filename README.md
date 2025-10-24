@@ -87,7 +87,7 @@ Użyto motywu **ciemnoszarego z niebieskimi akcentami**.
 
 ---
 
-## 🧾 Struktura repozytorium
+## Struktura repozytorium
 ```
 Zadanie_rekrutacyjne_2/
 │
@@ -105,7 +105,7 @@ Zadanie_rekrutacyjne_2/
 
 ---
 
-##� Wnioski
+## Wnioski
 
 - Największy churn odnotowano w latach **2015–2017**, z maksimum w 2016 r.  
 - Kampanie typu **scored** generowały wyższy churn niż kampanie standardowe.  
@@ -117,7 +117,7 @@ Zadanie_rekrutacyjne_2/
 ## Autor
 
 **Mateusz Wykowski**  
-💼 Data Analyst / Data Science Enthusiast  
-📅 Październik 2025  
+ Data Analyst / Data Science Enthusiast  
+ Październik 2025  
 
 ---
