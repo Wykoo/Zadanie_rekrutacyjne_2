@@ -117,7 +117,6 @@ Zadanie_rekrutacyjne_2/
 ## Autor
 
 **Mateusz Wykowski**  
- Data Analyst / Data Science Enthusiast  
  Październik 2025  
 
 ---
